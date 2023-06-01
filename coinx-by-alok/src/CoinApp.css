@@ -1,0 +1,248 @@
+
+
+  .popUpMainBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .popUp-content {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popUp-content h2 {
+    font-size: 24px;
+    margin-bottom: 0px;
+    color: #8E24AA;
+  }
+  
+  .popUp-content img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+  }
+  
+  .close:hover {
+    color: #555;
+  }
+  .detailBox{
+    text-align:start;
+    margin-bottom: 10px;
+    padding-left: 50px;
+  }
+  .symBox{
+    font-size: 28px;
+  }
+
+ .coin-table {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+  }
+  
+  tr {
+    cursor: pointer;
+  }
+  
+  .coin-table th,
+  .coin-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: start;
+  }
+  
+  .coin-table th {
+    background-color: #E91E63;
+    color: #fff;
+  }
+  
+  .coin-table img {
+    width: 25px;
+  }
+  
+  .minusPer {
+    color: red;
+  }
+  
+  .plusPer {
+    color: green;
+  }
+  
+  .coinBox {
+    display: flex;
+    border: 1px solid red;
+    width: 50%;
+  }
+  
+  .imgBox {
+    border: 1px solid red;
+  }
+  
+  .detBox {
+    border: 1px solid red;
+  }
+  
+  .btnBox {
+    margin-bottom: 30px;
+  }
+  
+  .btn1,
+  .btn2,
+  .btn3 {
+    margin-right: 10px;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .btn1,
+  .btn2 {
+    width: 100px;
+    background: #8E24AA;
+    color: #fff;
+  }
+  
+  .btn3 {
+    width: 50px;
+    background: #1E88E5;
+  }
+  
+  .btn1:hover,
+  .btn2:hover {
+    background: #fff;
+    color: black;
+    border: 2px solid #8E24AA;
+    cursor: pointer;
+  }
+  
+  .currMainBox {
+    display: flex;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+    border-radius: 20px;
+  }
+  .curr1 {
+    font-size: 14px;
+  }
+  
+  .curr2 {
+    width: 40%;
+  }
+  
+  .curr2 select {
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .btnsrtBox button {
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+    background: #FF5252;
+    color: #fff;
+    border-radius: 20px;
+  }
+
+.coin-table {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+  }
+
+  
+  /* Styles for screens smaller than 600px */
+  @media screen and (max-width: 600px) {
+    .coin-table {
+      width: 90%;
+    }
+  
+    .currMainBox {
+      width: 90%;
+    }
+    .coin-table td {
+        font-size: 12px;
+    }
+  }
+
+  
+  
+  /* Styles for screens between 601px and 1200px */
+  @media screen and (min-width: 601px) and (max-width: 1200px) {
+    .coin-table {
+      width: 70%;
+    }
+  
+    .currMainBox {
+      width: 70%;
+    }
+    .coin-table td {
+        font-size: 14px;
+    }
+  }
+  
+  /* Styles for screens larger than 1200px */
+  @media screen and (min-width: 1201px) {
+    .coin-table {
+      width: 60%;
+    }
+  
+    .currMainBox {
+      width: 60%;
+    }
+    .coin-table td {
+        font-size: 16px;
+    }
+  }
+/* Default styles */
+  .coin-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: start;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  
+
+      
+
+
+
+
+  
