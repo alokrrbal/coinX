@@ -50,7 +50,7 @@ A single-page React application that utilizes the CoinGecko API to display a lis
 1. Start the development server:
     `npm start`
 
-2. Open your web browser and visit http://localhost:3000 to view the CoinGecko app.
+2. Open your web browser and visit http://localhost:3000 to view the CoinX app.
 
 ## Technologies Used
 
