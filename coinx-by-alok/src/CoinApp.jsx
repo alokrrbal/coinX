@@ -127,6 +127,7 @@ export const CoinApp = () => {
             <th>Price</th>
             <th>24h Change</th>
             <th>Market Cap</th>
+            <th>More</th>
           </tr>
         </thead>
 
@@ -162,6 +163,9 @@ export const CoinApp = () => {
                     ? "$"
                     : "€"
                 } ${el.market_cap.toLocaleString()}`}</td>
+                <td className="vmBtn">
+                    View More
+                </td>
               </tr>
             ))}
         </tbody>

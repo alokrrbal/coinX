@@ -120,19 +120,20 @@
   }
   
   .btn1,
-  .btn2 {
+  .btn2,
+  .vmBtn {
     width: 100px;
     background: #8E24AA;
     color: #fff;
   }
-  
   .btn3 {
     width: 50px;
     background: #1E88E5;
   }
   
   .btn1:hover,
-  .btn2:hover {
+  .btn2:hover,
+  .vmBtn:hover {
     background: #fff;
     color: black;
     border: 2px solid #8E24AA;
